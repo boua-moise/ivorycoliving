@@ -1,0 +1,158 @@
+[
+    {
+        "id": 1,
+        "dispo": 1,
+        "nom": "Appartement moderne à Cocody",
+        "localisation": "Cocody, Abidjan",
+        "budget": 240000,
+        "capacite": 3,
+        "surface": "120m²",
+        "equipements": [
+            "Wi-Fi",
+            "Climatisation",
+            "Parking sécurisé",
+            "Cuisine équipée"
+        ],
+        "description": "Ce superbe appartement situé à Cocody offre un cadre de vie confortable et moderne. Il dispose de trois chambres spacieuses avec rangements, d'un grand salon lumineux et d'une cuisine entièrement équipée. La résidence est sécurisée, et les colocataires bénéficient d'un parking privé ainsi que d'une connexion internet haut débit. Idéal pour les étudiants et jeunes professionnels cherchant un espace bien situé et fonctionnel.",
+        "contacts": {
+            "telephone": "+225 01 9876 5432",
+            "email": "gestionappart@example.com"
+        },
+        "main_image": "uploads/logements/9dd8daee-4a6e-4b51-923e-2cb71ff71672_IMG-20240324-WA0012.jpg",
+        "additional_images": [
+            "uploads/logements/bf4f0ee8-1410-4540-9d21-84683fccc532_IMG-20240324-WA0011.jpg",
+            "uploads/logements/cac5902c-f6e4-47d6-80bc-0bee72e177ef_IMG-20240324-WA0010.jpg",
+            "uploads/logements/6c6740c5-b0e5-4a34-8980-823ac6f6dbcc_IMG-20240324-WA0009 (Copie).jpg",
+            "uploads/logements/b0c8fae7-f97f-4747-a0cc-c31445242b55_IMG-20240324-WA0008.jpg"
+        ]
+    },
+    {
+        "id": 2,
+        "dispo": 1,
+        "nom": "Studio cosy au Plateau",
+        "localisation": "Plateau, Abidjan",
+        "budget": 150000,
+        "capacite": 1,
+        "surface": "40m²",
+        "equipements": [
+            "Internet",
+            "Meublé",
+            "Buanderie"
+        ],
+        "description": "Ce studio situé au Plateau offre un espace idéal pour une personne souhaitant vivre seule tout en étant au cœur de l'activité urbaine. Entièrement meublé et équipé, il comprend un lit confortable, un espace de travail et une cuisine moderne. L'immeuble propose une buanderie ainsi qu'un accès rapide aux transports et commerces. Parfait pour un étudiant ou un jeune professionnel.",
+        "contacts": {
+            "telephone": "+225 04 5678 9012",
+            "email": "studio-location@example.com"
+        },
+        "main_image": "uploads/logements/4523a550-05b2-4abc-b6b2-d9af36d65d02_anthony-mckissic-t-Kzi9Wqdko-unsplash.jpg",
+        "additional_images": [
+            "uploads/logements/bf0931ba-c407-4781-9ab2-9d45eb69899a_family-7257182_1280.jpg",
+            "uploads/logements/3d37af24-522b-4be6-b840-f438aea58f2d_gallery23 1.png",
+            "uploads/logements/184cdb2a-26b8-44d8-ba62-3a8de282339a_lashawn-dobbs--vmYS9bent4-unsplash.jpg",
+            "uploads/logements/ffdacd49-e8a5-417e-8de9-51c0e8f876d7_NAN(1).png"
+        ]
+    },
+    {
+        "id": 3,
+        "dispo": 1,
+        "nom": "Maison partagée à Yopougon",
+        "localisation": "Yopougon, Abidjan",
+        "budget": 180000,
+        "capacite": 4,
+        "surface": "150m²",
+        "equipements": [
+            "Jardin",
+            "Parking sécurisé",
+            "Salle commune"
+        ],
+        "description": "Située à Yopougon, cette maison partagée offre un environnement paisible avec de grands espaces communs pour les colocataires. Les chambres sont bien aménagées, et les résidents peuvent profiter d’une salle commune pour travailler ou se détendre. La cour extérieure permet d’organiser des repas en plein air, et le quartier est bien desservi par les transports.",
+        "contacts": {
+            "telephone": "+225 09 8765 4321",
+            "email": "maison-yopougon@example.com"
+        },
+        "main_image": "uploads/logements/9dd8daee-4a6e-4b51-923e-2cb71ff71672_IMG-20240324-WA0012.jpg",
+        "additional_images": [
+            "uploads/logements/bf4f0ee8-1410-4540-9d21-84683fccc532_IMG-20240324-WA0011.jpg",
+            "uploads/logements/cac5902c-f6e4-47d6-80bc-0bee72e177ef_IMG-20240324-WA0010.jpg",
+            "uploads/logements/6c6740c5-b0e5-4a34-8980-823ac6f6dbcc_IMG-20240324-WA0009 (Copie).jpg",
+            "uploads/logements/b0c8fae7-f97f-4747-a0cc-c31445242b55_IMG-20240324-WA0008.jpg"
+        ]
+    },
+    {
+        "id": 4,
+        "dispo": 1,
+        "nom": "Appartement meublé à Marcory",
+        "localisation": "Marcory, Abidjan",
+        "budget": 220000,
+        "capacite": 2,
+        "surface": "85m²",
+        "equipements": [
+            "Meublé",
+            "Wi-Fi",
+            "Sécurité 24h/24"
+        ],
+        "description": "Appartement entièrement meublé, conçu pour deux colocataires cherchant un environnement moderne et sécurisé. Il comprend un espace de vie confortable, une cuisine équipée et des chambres bien aménagées. Situé dans un quartier dynamique, l'appartement permet un accès rapide aux centres commerciaux et universités.",
+        "contacts": {
+            "telephone": "+225 07 6543 2109",
+            "email": "location-marcory@example.com"
+        },
+        "main_image": "uploads/logements/4523a550-05b2-4abc-b6b2-d9af36d65d02_anthony-mckissic-t-Kzi9Wqdko-unsplash.jpg",
+        "additional_images": [
+            "uploads/logements/bf0931ba-c407-4781-9ab2-9d45eb69899a_family-7257182_1280.jpg",
+            "uploads/logements/3d37af24-522b-4be6-b840-f438aea58f2d_gallery23 1.png",
+            "uploads/logements/184cdb2a-26b8-44d8-ba62-3a8de282339a_lashawn-dobbs--vmYS9bent4-unsplash.jpg",
+            "uploads/logements/ffdacd49-e8a5-417e-8de9-51c0e8f876d7_NAN(1).png"
+        ]
+    },
+    {
+        "id": 5,
+        "dispo": 1,
+        "nom": "rtg",
+        "localisation": "rtg",
+        "budget": "2222",
+        "capacite": "2",
+        "contacts": "geekmaster225@proton.me",
+        "description": "La famille Koné offre un cadre familial structuré et accueillant pour les étudiants. La maison, située en plein cœur du Plateau, est idéale pour les jeunes cherchant un accès rapide aux universités et aux bibliothèques. Les étudiants y trouvent une chambre bien aménagée avec un espace de travail adapté. En dehors des études, ils profitent d’un cadre sécurisé et d’un accompagnement bienveillant. Les repas sont préparés avec attention, et un espace de discussion permet aux colocataires et aux membres de la famille d’échanger sur divers sujets. Une solution idéale pour les étudiants en quête de stabilité et d’interactions enrichissantes.\r\n\r\nLorem, ipsum",
+        "main_image": "uploads/logements/9dd8daee-4a6e-4b51-923e-2cb71ff71672_IMG-20240324-WA0012.jpg",
+        "additional_images": [
+            "uploads/logements/bf4f0ee8-1410-4540-9d21-84683fccc532_IMG-20240324-WA0011.jpg",
+            "uploads/logements/cac5902c-f6e4-47d6-80bc-0bee72e177ef_IMG-20240324-WA0010.jpg",
+            "uploads/logements/6c6740c5-b0e5-4a34-8980-823ac6f6dbcc_IMG-20240324-WA0009 (Copie).jpg",
+            "uploads/logements/b0c8fae7-f97f-4747-a0cc-c31445242b55_IMG-20240324-WA0008.jpg"
+        ]
+    },
+    {
+        "id": 6,
+        "dispo": 1,
+        "nom": "rtg",
+        "localisation": "rtg",
+        "budget": "2222",
+        "capacite": "2",
+        "contacts": "geekmaster225@proton.me",
+        "description": "La famille Koné offre un cadre familial structuré et accueillant pour les étudiants. La maison, située en plein cœur du Plateau, est idéale pour les jeunes cherchant un accès rapide aux universités et aux bibliothèques. Les étudiants y trouvent une chambre bien aménagée avec un espace de travail adapté. En dehors des études, ils profitent d’un cadre sécurisé et d’un accompagnement bienveillant. Les repas sont préparés avec attention, et un espace de discussion permet aux colocataires et aux membres de la famille d’échanger sur divers sujets. Une solution idéale pour les étudiants en quête de stabilité et d’interactions enrichissantes.\r\n\r\nLorem, ipsum",
+        "main_image": "uploads/logements/4523a550-05b2-4abc-b6b2-d9af36d65d02_anthony-mckissic-t-Kzi9Wqdko-unsplash.jpg",
+        "additional_images": [
+            "uploads/logements/bf0931ba-c407-4781-9ab2-9d45eb69899a_family-7257182_1280.jpg",
+            "uploads/logements/3d37af24-522b-4be6-b840-f438aea58f2d_gallery23 1.png",
+            "uploads/logements/184cdb2a-26b8-44d8-ba62-3a8de282339a_lashawn-dobbs--vmYS9bent4-unsplash.jpg",
+            "uploads/logements/ffdacd49-e8a5-417e-8de9-51c0e8f876d7_NAN(1).png"
+        ]
+    },
+    {
+        "id": 7,
+        "dispo": 1,
+        "nom": "Famille Blé",
+        "localisation": "Macory, Abidjan",
+        "budget": "45000",
+        "capacite": "2",
+        "contacts": "geekmaster225@proton.me",
+        "description": "relative_path = file_path.split(\"static/\", 1)[-1]  # Extrait tout ce qui vient après \"static/\"\r\n    return relative_path",
+        "main_image": "uploads/logements/9dd8daee-4a6e-4b51-923e-2cb71ff71672_IMG-20240324-WA0012.jpg",
+        "additional_images": [
+            "uploads/logements/bf4f0ee8-1410-4540-9d21-84683fccc532_IMG-20240324-WA0011.jpg",
+            "uploads/logements/cac5902c-f6e4-47d6-80bc-0bee72e177ef_IMG-20240324-WA0010.jpg",
+            "uploads/logements/6c6740c5-b0e5-4a34-8980-823ac6f6dbcc_IMG-20240324-WA0009 (Copie).jpg",
+            "uploads/logements/b0c8fae7-f97f-4747-a0cc-c31445242b55_IMG-20240324-WA0008.jpg"
+        ]
+    }
+]

@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Acceuil - IvoryCoLiving</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='css/styles.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='css/header_footer.css') }}">
+</head>
+<body>
+
+    {% include 'model/header.html' %}
+
+    <main>
+
+        <section class="section_header">
+
+            <div class="header">
+                <h1>IvoryCoLiving</h1>
+
+                <p class="description">Où professionalisme s’allie avec passion. Depuis plus de 5 ans maintenant, j’exerce mon métier avec la passion qui m’anime : capturer l’essence de chaque </p>
+            </div>
+
+
+        </section>
+
+        <section class="hostfamily">
+
+            <div class="titre">
+
+                <span>
+                    <label></label>
+                    <h2>Host Family.</h2>
+                    <label></label>
+                </span>
+
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+
+            </div>
+
+            <div class="items">
+
+                <div class="card_item">
+
+                    <div class="img_item">
+                        <img src="/static/uploads/familles/dacee21c-0f93-435b-a808-c8a7615fab4f_anthony-mckissic-t-Kzi9Wqdko-unsplash.jpg" alt="">
+                        <span>1</span>
+                        <a href="/detail?file=1&index=0">
+                            <div class="cta">
+                                <div id="btn">VOIR PLUS</div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="info_item">
+                        <span class="dispo">dispo</span>
+                        <h2>Famille Kouadio</h2>
+                        <p><strong>Localisation:</strong> Cocody, Abidjan</p>
+                        <p><strong>Capacité:</strong> 3 étudiants</p>
+
+                    </div>
+
+                    <span class="prix_item">
+                        <strong>Prix:</strong> <span>75000 FCFA/mois</span>
+                    </span>
+
+                </div>
+
+            
+
+                <div class="card_item">
+
+                    <div class="img_item">
+                        <img src="/static/uploads/familles/2d864002-d6ed-40c1-9457-9a15c4ea817b_IMG-20240324-WA0012.jpg" alt="">
+                        <span>1</span>
+                        <a href="/detail?file=1&index=1">
+                            <div class="cta">
+                                <div id="btn">VOIR PLUS</div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="info_item">
+                        <span class="dispo">dispo</span>
+                        <h2>Famille Koné</h2>
+                        <p><strong>Localisation:</strong> Plateau, Abidjan</p>
+                        <p><strong>Capacité:</strong> 2 étudiants</p>
+
+                    </div>
+
+                    <span class="prix_item">
+                        <strong>Prix:</strong> <span>90000 FCFA/mois</span>
+                    </span>
+
+                </div>
+
+            
+
+                <div class="card_item">
+
+                    <div class="img_item">
+                        <img src="/static/uploads/familles/dacee21c-0f93-435b-a808-c8a7615fab4f_anthony-mckissic-t-Kzi9Wqdko-unsplash.jpg" alt="">
+                        <span>1</span>
+                        <a href="/detail?file=1&index=2">
+                            <div class="cta">
+                                <div id="btn">VOIR PLUS</div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="info_item">
+                        <span class="dispo">dispo</span>
+                        <h2>Famille Traoré</h2>
+                        <p><strong>Localisation:</strong> Yopougon, Abidjan</p>
+                        <p><strong>Capacité:</strong> 4 étudiants</p>
+
+                    </div>
+
+                    <span class="prix_item">
+                        <strong>Prix:</strong> <span>65000 FCFA/mois</span>
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="colocataire">
+
+            <div class="titre">
+
+                <span>
+                    <label></label>
+                    <h2>Colocataires.</h2>
+                    <label></label>
+                </span>
+
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+
+            </div>
+
+            <div class="items">
+
+                <div class="card_item">
+
+                    <div class="img_item">
+
+                        <img src="/static/images/robbie-lens.png" alt="user-image">
+
+                        <span>1</span>
+
+                        <a href="/detail?file=2&index=0">
+
+                            <div class="cta">
+
+                                <div id="btn">VOIR PLUS</div>
+
+                            </div>
+
+                        </a>
+                    </div>
+
+
+                    <div class="info_item">
+                        <span class="dispo">dispo</span>
+                        <h2>Jean Kouassi, 24 ans</h2>
+                        <p><strong>Profession:</strong> </p>
+                        <p><strong>Contact:</strong> +225 05 6789 1234, jean.kouassi@example.com</p>
+                    </div>
+
+                    <span class="prix_item">
+                        <strong>Budget Max:</strong> <span>80000 FCFA</span>
+                    </span>
+
+                </div>
+
+            
+                    
+                <div class="card_item">
+
+                    <div class="img_item">
+
+                        <img src="/static/images/robbie-lens.png" alt="user-image">
+
+                        <span>1</span>
+
+                        <a href="/detail?file=2&index=1">
+
+                            <div class="cta">
+
+                                <div id="btn">VOIR PLUS</div>
+
+                            </div>
+
+                        </a>
+                    </div>
+
+
+                    <div class="info_item">
+                        <span class="dispo">dispo</span>
+                        <h2>Fatou Diarra, 22 ans</h2>
+                        <p><strong>Profession:</strong> </p>
+                        <p><strong>Contact:</strong> +225 07 4321 8765, fatou.diarra@example.com</p>
+                    </div>
+
+                    <span class="prix_item">
+                        <strong>Budget Max:</strong> <span>70000 FCFA</span>
+                    </span>
+
+                </div>
+
+            
+                    
+                <div class="card_item">
+
+                    <div class="img_item">
+
+                        <img src="/static/images/robbie-lens.png" alt="user-image">
+
+                        <span>1</span>
+
+                        <a href="/detail?file=2&index=2">
+
+                            <div class="cta">
+
+                                <div id="btn">VOIR PLUS</div>
+
+                            </div>
+
+                        </a>
+                    </div>
+
+
+                    <div class="info_item">
+                        <span class="dispo">dispo</span>
+                        <h2>Moussa Coulibaly, 26 ans</h2>
+                        <p><strong>Profession:</strong> </p>
+                        <p><strong>Contact:</strong> +225 09 8765 4321, moussa.coulibaly@example.com</p>
+                    </div>
+
+                    <span class="prix_item">
+                        <strong>Budget Max:</strong> <span>90000 FCFA</span>
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="interet_utilisation">
+
+            <div class="contenue">
+                <h1>Pourquoi choisir l'utilisation?</h1>
+
+                <p class="para1">La première étape de la vente de votre bien immobilier est d'obtenir une évaluation
+                    d'experts locaux. Ils seront inspecter votre maison et prendre en compte ses
+                    caractéristiques uniques, la zone et les conditions du marché; avant de vous fournir
+                    l'évaluation la plus précise.
+                </p>
+
+                <p>Lorem ipsum dolor assis amet, crêpetur adipisicing elit. Quod libero amet, laborum
+                    qui nulla quae alias tempora. Placeat voluptatem eum numquam quas distinctio
+                    obcaecati quaerat, repudiandae qui. Quia, omnis, doloribus. Lorem ipsum dolor as
+                    amet, consectetur adipisicing éd. Quod libero amet, laborum qui nullas tempora.
+                </p>
+
+                <div class="btn">
+                    Lorem, ipsum
+                </div>
+            </div>
+
+            <div class="image_int">
+                <img src="{{ url_for('static', path='images/interet.png') }}" alt="">
+            </div>
+
+        </section>
+
+        <section class="avis">
+
+            <div class="titre">
+
+                <span>
+                    <label></label>
+                    <h2>IvoryCoLiving.</h2>
+                    <label></label>
+                </span>
+
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+
+            </div>
+
+            <div class="container_avis">
+
+                <div class="perso_avis">
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                        Ducimus ipsum, est odio repellendus veritatis dolore consectetur
+                        blanditiis dolores. In, perferendis?
+                    </p>
+
+                    <div class="text_image">
+
+                        <p class="name-auteur">Lorem ipsum</p>
+
+                    </div>
+
+                </div>
+
+                <div class="perso_avis">
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                        Ducimus ipsum, est odio repellendus veritatis dolore consectetur
+                        blanditiis dolores. In, perferendis?
+                    </p>
+
+                    <div class="text_image">
+
+                        <p class="name-auteur">Lorem ipsum</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    {% if message %}
+
+        <script defer>
+            
+            alert("{{message}}")
+
+        </script>
+
+    {% endif %}
+
+    {% include 'model/footer.html' %}
+
+</body>
+</html>

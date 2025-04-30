@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Détail - IvoryCoLiving</title>
+        <link rel="stylesheet" href="{{ url_for('static', path='css/detail.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', path='css/header_footer.css') }}">
+    </head>
+
+    <body>
+
+        {% include 'model/header.html' %}
+
+        <main>
+
+            <section>
+
+                <div class="bloc-image">
+
+                    <div class="image-principale">
+                        <img src="{{ url_for('static', path=item.main_image) }}" alt="user-image">
+                    </div>
+                    
+                    <div class="sub_image">
+
+                        <div class="image">
+                            <img src="{{ url_for('static', path=item.additional_images[0]) }}" alt="description-image">
+                        </div>
+    
+                        <div class="image">
+                            <img src="{{ url_for('static', path=item.additional_images[1]) }}" alt="user-image">
+                        </div>
+    
+                        <div class="image">
+                            <img src="{{ url_for('static', path=item.additional_images[2]) }}" alt="description-image">
+                        </div>
+                        
+                        <div class="image">
+                            <img src="{{ url_for('static', path=item.additional_images[3]) }}" alt="user-image">
+                        </div>
+                    </div>
+    
+                </div>
+    
+                <div class="titre">
+    
+                    <div>
+                        <h3>{{item.nom}}</h3>
+                        <p class="locate">{{item.localisation}}</p>
+                    </div>
+    
+                    <div>
+                        <h3>{{item.budget}} FCFA/mois</h3>
+                        <p><strong>Nombre de colocataire</strong>: {{item.capacite}}</p>
+                    </div>
+    
+                </div>
+    
+                <div class="description">
+
+                    <h2>Description</h2>
+                    <p class="description">{{item.description}}</p>
+    
+                </div>
+    
+                <div class="btn">
+                    Lorem, ipsum
+                </div>
+
+            </section>
+
+        </main>
+
+        {% include 'model/footer.html' %}
+        
+    </body>
+
+</html>

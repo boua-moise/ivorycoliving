@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - IvoryCoLiving</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='css/dashboard.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='css/header_footer.css') }}">
+</head>
+<body>
+
+    {% include 'model/header.html' %}
+
+    <main>
+        <h1>Profil utilisateur</h1>
+
+        <section class="containe_dashboard">
+    
+            <div class="info_user">
+    
+                <div class="image">
+                    <img src="{{ url_for('static', path=item.photo) }}" alt="user-image">
+                </div>
+    
+                <div class="info">
+
+                    <h2> {{ item.nom  }} {{ item.prenom  }}, {{ item.age  }}ans </h2>
+    
+                    <span> {{item.fonction}} </span>
+        
+                    <p> <strong>{{item.contacts.email}}</strong> </p>
+        
+                    <p class="num"> <strong>{{item.contacts.telephone}}</strong> </p>
+        
+                    <a href="#"><img src="" alt="user-image"></a>
+
+                </div>
+    
+            </div>
+    
+            <div class="container_description">
+    
+                <div class="title_description">
+    
+                    <div class="title un" id="un">Préférence</div>
+                    <div class="title deux" id="deux">Logements</div>
+                    <div class="title trois" id="trois">Modifier</div>
+    
+                </div>
+    
+                <div class="description">
+
+                    <div class="description-user flex">
+    
+                        <h2>Description</h2>
+        
+                        <p class="description"> {{item.description}} </p>
+        
+                        <h2>Budget</h2>
+        
+                        <p> {{item.budget}} FCFA</p>
+        
+                    </div>
+
+                </div>
+    
+            </div>
+    
+        </section>
+
+    </main>
+
+    {% include 'model/footer.html' %}
+
+</body>
+</html>

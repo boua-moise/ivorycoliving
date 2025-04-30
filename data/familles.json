@@ -1,0 +1,244 @@
+[
+    {
+        "id": 1,
+        "dispo": 1,
+        "nom": "Famille Kouadio",
+        "localisation": "Cocody, Abidjan",
+        "capacite": 3,
+        "budget": 75000,
+        "description": "La famille Kouadio est reconnue pour son hospitalité et son engagement à offrir un cadre idéal aux étudiants. Située dans un quartier paisible, elle met à disposition des chambres confortables avec des espaces communs propices aux échanges et aux études. En plus d’un accès à une connexion internet rapide, les étudiants bénéficient de repas équilibrés préparés avec soin. La maison dispose d’un grand jardin et d’un espace détente où les colocataires peuvent se retrouver après leurs cours. La famille privilégie une ambiance conviviale et respecte le besoin d’intimité des jeunes hébergés. Pour les étudiants recherchant une alternative abordable aux logements classiques, la famille Kouadio représente une excellente opportunité.",
+        "equipements": [
+            "Wi-Fi",
+            "Climatisation",
+            "Repas inclus"
+        ],
+        "photo": "images/famille_kouadio.jpg",
+        "contacts": {
+            "telephone": "+225 01 2345 6789",
+            "email": "kouadiofamille@example.com"
+        },
+        "main_image": "uploads/familles/dacee21c-0f93-435b-a808-c8a7615fab4f_anthony-mckissic-t-Kzi9Wqdko-unsplash.jpg",
+        "additional_images": [
+            "uploads/familles/17f6c6ac-1d80-4925-a93c-cd562ac5e654_artguru-remove-object-1743769509773.png",
+            "uploads/familles/83b928a8-cbe6-4fa6-8d60-da95da866ba2_anthony-mckissic-t-Kzi9Wqdko-unsplash.jpg",
+            "uploads/familles/9bfd6684-eefc-43be-8c50-e66cefce7602_gallery23 1.png",
+            "uploads/familles/8eb47e2b-586b-4de2-9b9d-01f90c2858d8_NAN(1).png"
+        ]
+    },
+    {
+        "id": 2,
+        "dispo": 1,
+        "nom": "Famille Koné",
+        "localisation": "Plateau, Abidjan",
+        "capacite": 2,
+        "budget": 90000,
+        "description": "La famille Koné offre un cadre familial structuré et accueillant pour les étudiants. La maison, située en plein cœur du Plateau, est idéale pour les jeunes cherchant un accès rapide aux universités et aux bibliothèques. Les étudiants y trouvent une chambre bien aménagée avec un espace de travail adapté. En dehors des études, ils profitent d’un cadre sécurisé et d’un accompagnement bienveillant. Les repas sont préparés avec attention, et un espace de discussion permet aux colocataires et aux membres de la famille d’échanger sur divers sujets. Une solution idéale pour les étudiants en quête de stabilité et d’interactions enrichissantes.",
+        "equipements": [
+            "Internet",
+            "Salle d'étude",
+            "Machine à laver"
+        ],
+        "photo": "images/famille_kone.jpg",
+        "contacts": {
+            "telephone": "+225 07 9876 5432",
+            "email": "konefamille@example.com"
+        },
+        "main_image": "uploads/familles/2d864002-d6ed-40c1-9457-9a15c4ea817b_IMG-20240324-WA0012.jpg",
+        "additional_images": [
+            "uploads/familles/0887e7f8-29c0-4a0c-a347-397ab37cd0c8_IMG-20240324-WA0011.jpg",
+            "uploads/familles/5dc052b4-9314-4c95-a4e3-f540c4bf3a32_IMG-20240324-WA0010.jpg",
+            "uploads/familles/45357943-0539-4590-80ee-4fb16131af55_IMG-20240324-WA0008.jpg",
+            "uploads/familles/90653d20-3595-4497-b78c-c61094a252af_IMG-20240324-WA0002.jpg"
+        ]
+    },
+    {
+        "id": 3,
+        "dispo": 1,
+        "nom": "Famille Traoré",
+        "localisation": "Yopougon, Abidjan",
+        "capacite": 4,
+        "budget": 65000,
+        "description": "Avec un esprit communautaire marqué, la famille Traoré accueille les étudiants dans un cadre propice aux études et aux échanges culturels. La maison comprend plusieurs chambres individuelles ainsi qu’un grand espace partagé comprenant une cuisine et un salon. Ici, les étudiants vivent dans une atmosphère chaleureuse et bénéficient d’un soutien quotidien de la famille pour leurs besoins académiques et personnels. Les repas sont préparés en fonction des préférences des colocataires et les week-ends sont souvent ponctués par des sorties organisées. Cet environnement est parfait pour les jeunes qui souhaitent se sentir intégrés tout en gardant leur indépendance.",
+        "equipements": [
+            "Salle de sport",
+            "Wi-Fi",
+            "Transport inclus"
+        ],
+        "photo": "images/famille_traore.jpg",
+        "contacts": {
+            "telephone": "+225 09 8765 4321",
+            "email": "traorefamille@example.com"
+        },
+        "main_image": "uploads/familles/dacee21c-0f93-435b-a808-c8a7615fab4f_anthony-mckissic-t-Kzi9Wqdko-unsplash.jpg",
+        "additional_images": [
+            "uploads/familles/17f6c6ac-1d80-4925-a93c-cd562ac5e654_artguru-remove-object-1743769509773.png",
+            "uploads/familles/83b928a8-cbe6-4fa6-8d60-da95da866ba2_anthony-mckissic-t-Kzi9Wqdko-unsplash.jpg",
+            "uploads/familles/9bfd6684-eefc-43be-8c50-e66cefce7602_gallery23 1.png",
+            "uploads/familles/8eb47e2b-586b-4de2-9b9d-01f90c2858d8_NAN(1).png"
+        ]
+    },
+    {
+        "id": 4,
+        "dispo": 1,
+        "nom": "Famille Coulibaly",
+        "localisation": "Marcory, Abidjan",
+        "capacite": 3,
+        "budget": 80000,
+        "description": "Située dans un quartier dynamique, la famille Coulibaly propose un hébergement moderne et confortable pour les étudiants. Les chambres sont bien équipées et chaque colocataire dispose d’un bureau personnel. La maison est sécurisée et les locataires bénéficient de services complémentaires tels que le ménage et l’entretien des espaces communs. La famille met un point d’honneur à offrir une ambiance chaleureuse, tout en respectant l’autonomie des étudiants. L’emplacement est idéal pour ceux qui doivent se déplacer fréquemment entre leur campus et d’autres activités en ville.",
+        "equipements": [
+            "Sécurité 24h/24",
+            "Ménage inclus",
+            "Wi-Fi"
+        ],
+        "photo": "images/famille_coulibaly.jpg",
+        "contacts": {
+            "telephone": "+225 08 6543 2109",
+            "email": "coulibalyfamille@example.com"
+        },
+        "main_image": "uploads/familles/2d864002-d6ed-40c1-9457-9a15c4ea817b_IMG-20240324-WA0012.jpg",
+        "additional_images": [
+            "uploads/familles/0887e7f8-29c0-4a0c-a347-397ab37cd0c8_IMG-20240324-WA0011.jpg",
+            "uploads/familles/5dc052b4-9314-4c95-a4e3-f540c4bf3a32_IMG-20240324-WA0010.jpg",
+            "uploads/familles/45357943-0539-4590-80ee-4fb16131af55_IMG-20240324-WA0008.jpg",
+            "uploads/familles/90653d20-3595-4497-b78c-c61094a252af_IMG-20240324-WA0002.jpg"
+        ]
+    },
+    {
+        "id": 1,
+        "dispo": 1,
+        "nom": "Famille Kouadio",
+        "localisation": "Cocody, Abidjan",
+        "capacite": 3,
+        "budget": 75000,
+        "description": "La famille Kouadio est reconnue pour son hospitalité et son engagement à offrir un cadre idéal aux étudiants. Située dans un quartier paisible, elle met à disposition des chambres confortables avec des espaces communs propices aux échanges et aux études. En plus d’un accès à une connexion internet rapide, les étudiants bénéficient de repas équilibrés préparés avec soin. La maison dispose d’un grand jardin et d’un espace détente où les colocataires peuvent se retrouver après leurs cours. La famille privilégie une ambiance conviviale et respecte le besoin d’intimité des jeunes hébergés. Pour les étudiants recherchant une alternative abordable aux logements classiques, la famille Kouadio représente une excellente opportunité.",
+        "equipements": [
+            "Wi-Fi",
+            "Climatisation",
+            "Repas inclus"
+        ],
+        "photo": "images/famille_kouadio.jpg",
+        "contacts": {
+            "telephone": "+225 01 2345 6789",
+            "email": "kouadiofamille@example.com"
+        },
+        "main_image": "uploads/familles/dacee21c-0f93-435b-a808-c8a7615fab4f_anthony-mckissic-t-Kzi9Wqdko-unsplash.jpg",
+        "additional_images": [
+            "uploads/familles/17f6c6ac-1d80-4925-a93c-cd562ac5e654_artguru-remove-object-1743769509773.png",
+            "uploads/familles/83b928a8-cbe6-4fa6-8d60-da95da866ba2_anthony-mckissic-t-Kzi9Wqdko-unsplash.jpg",
+            "uploads/familles/9bfd6684-eefc-43be-8c50-e66cefce7602_gallery23 1.png",
+            "uploads/familles/8eb47e2b-586b-4de2-9b9d-01f90c2858d8_NAN(1).png"
+        ]
+    },
+    {
+        "id": 2,
+        "dispo": 1,
+        "nom": "Famille Koné",
+        "localisation": "Plateau, Abidjan",
+        "capacite": 2,
+        "budget": 90000,
+        "description": "La famille Koné offre un cadre familial structuré et accueillant pour les étudiants. La maison, située en plein cœur du Plateau, est idéale pour les jeunes cherchant un accès rapide aux universités et aux bibliothèques. Les étudiants y trouvent une chambre bien aménagée avec un espace de travail adapté. En dehors des études, ils profitent d’un cadre sécurisé et d’un accompagnement bienveillant. Les repas sont préparés avec attention, et un espace de discussion permet aux colocataires et aux membres de la famille d’échanger sur divers sujets. Une solution idéale pour les étudiants en quête de stabilité et d’interactions enrichissantes.",
+        "equipements": [
+            "Internet",
+            "Salle d'étude",
+            "Machine à laver"
+        ],
+        "photo": "images/famille_kone.jpg",
+        "contacts": {
+            "telephone": "+225 07 9876 5432",
+            "email": "konefamille@example.com"
+        },
+        "main_image": "uploads/familles/2d864002-d6ed-40c1-9457-9a15c4ea817b_IMG-20240324-WA0012.jpg",
+        "additional_images": [
+            "uploads/familles/0887e7f8-29c0-4a0c-a347-397ab37cd0c8_IMG-20240324-WA0011.jpg",
+            "uploads/familles/5dc052b4-9314-4c95-a4e3-f540c4bf3a32_IMG-20240324-WA0010.jpg",
+            "uploads/familles/45357943-0539-4590-80ee-4fb16131af55_IMG-20240324-WA0008.jpg",
+            "uploads/familles/90653d20-3595-4497-b78c-c61094a252af_IMG-20240324-WA0002.jpg"
+        ]
+    },
+    {
+        "id": 3,
+        "dispo": 1,
+        "nom": "Famille Traoré",
+        "localisation": "Yopougon, Abidjan",
+        "capacite": 4,
+        "budget": 65000,
+        "description": "Avec un esprit communautaire marqué, la famille Traoré accueille les étudiants dans un cadre propice aux études et aux échanges culturels. La maison comprend plusieurs chambres individuelles ainsi qu’un grand espace partagé comprenant une cuisine et un salon. Ici, les étudiants vivent dans une atmosphère chaleureuse et bénéficient d’un soutien quotidien de la famille pour leurs besoins académiques et personnels. Les repas sont préparés en fonction des préférences des colocataires et les week-ends sont souvent ponctués par des sorties organisées. Cet environnement est parfait pour les jeunes qui souhaitent se sentir intégrés tout en gardant leur indépendance.",
+        "equipements": [
+            "Salle de sport",
+            "Wi-Fi",
+            "Transport inclus"
+        ],
+        "photo": "images/famille_traore.jpg",
+        "contacts": {
+            "telephone": "+225 09 8765 4321",
+            "email": "traorefamille@example.com"
+        },
+        "main_image": "uploads/familles/dacee21c-0f93-435b-a808-c8a7615fab4f_anthony-mckissic-t-Kzi9Wqdko-unsplash.jpg",
+        "additional_images": [
+            "uploads/familles/17f6c6ac-1d80-4925-a93c-cd562ac5e654_artguru-remove-object-1743769509773.png",
+            "uploads/familles/83b928a8-cbe6-4fa6-8d60-da95da866ba2_anthony-mckissic-t-Kzi9Wqdko-unsplash.jpg",
+            "uploads/familles/9bfd6684-eefc-43be-8c50-e66cefce7602_gallery23 1.png",
+            "uploads/familles/8eb47e2b-586b-4de2-9b9d-01f90c2858d8_NAN(1).png"
+        ]
+    },
+    {
+        "id": 4,
+        "dispo": 1,
+        "nom": "Famille Coulibaly",
+        "localisation": "Marcory, Abidjan",
+        "capacite": 3,
+        "budget": 80000,
+        "description": "Située dans un quartier dynamique, la famille Coulibaly propose un hébergement moderne et confortable pour les étudiants. Les chambres sont bien équipées et chaque colocataire dispose d’un bureau personnel. La maison est sécurisée et les locataires bénéficient de services complémentaires tels que le ménage et l’entretien des espaces communs. La famille met un point d’honneur à offrir une ambiance chaleureuse, tout en respectant l’autonomie des étudiants. L’emplacement est idéal pour ceux qui doivent se déplacer fréquemment entre leur campus et d’autres activités en ville.",
+        "equipements": [
+            "Sécurité 24h/24",
+            "Ménage inclus",
+            "Wi-Fi"
+        ],
+        "photo": "images/famille_coulibaly.jpg",
+        "contacts": {
+            "telephone": "+225 08 6543 2109",
+            "email": "coulibalyfamille@example.com"
+        },
+        "main_image": "uploads/familles/2d864002-d6ed-40c1-9457-9a15c4ea817b_IMG-20240324-WA0012.jpg",
+        "additional_images": [
+            "uploads/familles/0887e7f8-29c0-4a0c-a347-397ab37cd0c8_IMG-20240324-WA0011.jpg",
+            "uploads/familles/5dc052b4-9314-4c95-a4e3-f540c4bf3a32_IMG-20240324-WA0010.jpg",
+            "uploads/familles/45357943-0539-4590-80ee-4fb16131af55_IMG-20240324-WA0008.jpg",
+            "uploads/familles/90653d20-3595-4497-b78c-c61094a252af_IMG-20240324-WA0002.jpg"
+        ]
+    },
+    {
+        "id": 9,
+        "dispo": 1,
+        "nom": "rtg",
+        "localisation": "rtg",
+        "budget": "2222",
+        "capacite": "2",
+        "contacts": "geekmaster225@proton.me",
+        "description": "La famille Koné offre un cadre familial structuré et accueillant pour les étudiants. La maison, située en plein cœur du Plateau, est idéale pour les jeunes cherchant un accès rapide aux universités et aux bibliothèques. Les étudiants y trouvent une chambre bien aménagée avec un espace de travail adapté. En dehors des études, ils profitent d’un cadre sécurisé et d’un accompagnement bienveillant. Les repas sont préparés avec attention, et un espace de discussion permet aux colocataires et aux membres de la famille d’échanger sur divers sujets. Une solution idéale pour les étudiants en quête de stabilité et d’interactions enrichissantes.\r\n\r\nLorem, ipsum",
+        "main_image": "uploads/familles/dacee21c-0f93-435b-a808-c8a7615fab4f_anthony-mckissic-t-Kzi9Wqdko-unsplash.jpg",
+        "additional_images": [
+            "uploads/familles/17f6c6ac-1d80-4925-a93c-cd562ac5e654_artguru-remove-object-1743769509773.png",
+            "uploads/familles/83b928a8-cbe6-4fa6-8d60-da95da866ba2_anthony-mckissic-t-Kzi9Wqdko-unsplash.jpg",
+            "uploads/familles/9bfd6684-eefc-43be-8c50-e66cefce7602_gallery23 1.png",
+            "uploads/familles/8eb47e2b-586b-4de2-9b9d-01f90c2858d8_NAN(1).png"
+        ]
+    },
+    {
+        "id": 10,
+        "dispo": 1,
+        "nom": "Famille Blé",
+        "localisation": "Macory, Abidjan",
+        "budget": "45000",
+        "capacite": "2",
+        "contacts": "geekmaster225@proton.me",
+        "description": "Jean est un étudiant en informatique passionné par le développement web et les nouvelles technologies. Organisé et méthodique, il privilégie un environnement calme pour se concentrer sur ses projets. Il apprécie les échanges avec ses colocataires et aime organiser des soirées de discussion autour de la programmation ou des jeux vidéo. Il est matinal et préfère une colocation équilibrée entre moments de convivialité et respect de l’intimité. Soucieux de maintenir un espace propre et bien rangé, il participe activement aux tâches communes.",
+        "main_image": "uploads/familles/2d864002-d6ed-40c1-9457-9a15c4ea817b_IMG-20240324-WA0012.jpg",
+        "additional_images": [
+            "uploads/familles/0887e7f8-29c0-4a0c-a347-397ab37cd0c8_IMG-20240324-WA0011.jpg",
+            "uploads/familles/5dc052b4-9314-4c95-a4e3-f540c4bf3a32_IMG-20240324-WA0010.jpg",
+            "uploads/familles/45357943-0539-4590-80ee-4fb16131af55_IMG-20240324-WA0008.jpg",
+            "uploads/familles/90653d20-3595-4497-b78c-c61094a252af_IMG-20240324-WA0002.jpg"
+        ]
+    }
+]

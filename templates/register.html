@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription - IvoryCoLiving</title>
+    <title>Connexion - IvoryCoLiving</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='css/header_footer.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='css/form.css') }}">
+</head>
+<body>
+
+    <main>
+
+        <form action="/register" method="post" class="register">
+
+            <h2>Inscription</h2>
+
+            <div class="space-entry">
+
+                <label for="firstname">
+                    Nom <br>
+                    <input type="text" name="firstname" id="firstname" placeholder="Yao" required>
+                </label>
+    
+                <br>
+    
+                <label for="lastname">
+                    Prénom <br>
+                    <input type="text" name="lastname" id="lastname" placeholder="Franck" required>
+                </label>
+    
+                <br>
+    
+                <label for="username">
+                    Nom Utilisateur <br>
+                    <input type="text" name="username" id="username" placeholder="yao">
+                </label>
+    
+                <br>
+    
+                <label for="mail">
+                    Mail <br>
+                    <input type="email" name="mail" id="mail" placeholder="exemple@gmail.com" required>
+                </label>
+    
+                <br>
+    
+                <label for="password">
+                    Mot de Pass <br>
+                    <input type="password" name="password" id="password" required>
+                </label>
+    
+                <br>
+    
+                <label for="conf_password">
+                    Confirmer Mot de Pass <br>
+                    <input type="password" name="conf_password" id="conf_password" required>
+                </label>
+    
+                <br>
+    
+                <button type="submit">Inscription</button>
+
+            </div>
+
+            <span class="qr"><p>Vous avez un compte?</p> <a href="/login">Se connecter</a></span>
+
+            <div class="bg_register"></div>
+
+        </form>
+
+        <div class="bg_main"></div>
+
+    </main>
+
+    {% if message %}
+
+        <script>
+            
+            alert("{{message}}")
+
+        </script>
+
+    {% endif %}
+
+</body>
+</html>

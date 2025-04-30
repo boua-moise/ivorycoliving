@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - IvoryCoLiving</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='css/dashboard.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='css/header_footer.css') }}">
+</head>
+<body>
+
+    {% include 'model/header.html' %}
+
+    <main>
+        <h1>Mon profil</h1>
+
+        <section class="containe_dashboard">
+    
+            <div class="info_user">
+    
+                <div class="image">
+                    <img src="{{ url_for('static', path=user_photo_path) }}" alt="user-image">
+                </div>
+    
+                <div class="info">
+
+                    <h2> {{ user.nom  }} {{ user.prenom  }} </h2>
+    
+                    <span> {{user.fonction}} </span>
+        
+                    <p> <strong>{{user.mail}}</strong> </p>
+        
+                    <p class="num"> <strong>{{user.num}}</strong> </p>
+        
+                    <a href="#"><img src="" alt="user-image"></a>
+
+                </div>
+    
+            </div>
+    
+            <div class="container_description">
+    
+                <div class="title_description">
+    
+                    <div class="title un" id="un">Préférence</div>
+                    <div class="title deux" id="deux">Logements</div>
+                    <div class="title trois" id="trois">Modifier</div>
+    
+                </div>
+    
+                <div class="description">
+
+                    <div class="description-user flex">
+    
+                        <h2>Description</h2>
+        
+                        <p class="description"> {{user.description}} </p>
+        
+                        <h2>Budget</h2>
+        
+                        <p> {{user.budget}} FCFA</p>
+        
+                    </div>
+        
+                    <div class="logement_user none">
+        
+                        <h2>Description</h2>
+        
+                        <p> {{user.description}} </p>
+        
+                        <h2>Budget</h2>
+        
+                        <p> {{user.budget}} </p>
+        
+                    </div>
+        
+                    <div class="modification_user none">
+        
+                        <form action="/updata_data" method="post" class="login" enctype="multipart/form-data">
+
+                            <div class="input-form">
+
+                                <div class="container-input">
+                                    <div class="input">
+                                        <label for="mail">Mail</label>
+                                        <input type="text" name="mail" id="mail" placeholder="exemple@gmail.com" required>
+                                    </div>
+    
+                                    <div class="input">
+                                        <label for="username"> Nom Utilisateur </label>
+                                        <input type="text" name="username" id="username" placeholder="exemple@gmail.com" required>
+                                    </div>
+                                </div>
+                                
+                                <div class="container-input">
+                                    <div class="input">
+                                        <label for="num">Numéro</label>
+                                        <input type="text" name="num" id="num" placeholder="exemple@gmail.com" required>
+                                    </div>
+    
+                                    <div class="input">
+                                        <label for="fonction"> Fonction </label>
+                                        <input type="text" name="fonction" id="fonction" placeholder="exemple@gmail.com" required>
+                                    </div>
+                                </div>
+
+                                <div class="container-input">
+                                    <div class="input">
+                                        <label for="password">Mot de pass</label>
+                                        <input type="text" name="password" id="password" placeholder="exemple@gmail.com" required>
+                                    </div>
+    
+                                    <div class="input">
+                                        <label for="photo"> Photo </label>
+                                        <input type="file" name="photo" id="photo" placeholder="exemple@gmail.com" required>
+                                    </div>
+                                </div>
+
+                            </div>
+                            
+                            <div class="btn">
+                                <button type="submit">Mise à jour</button>
+                            </div>
+
+                        </form>
+        
+                    </div>
+
+                </div>
+    
+            </div>
+    
+        </section>
+
+    </main>
+
+    {% include 'model/footer.html' %}
+
+    <script>
+        let un = document.getElementById('un')
+        let deux = document.getElementById('deux')
+        let trois = document.getElementById('trois')
+
+        let description_user = document.querySelector('.description-user')
+        let logement_user = document.querySelector('.logement_user')
+        let modification_user = document.querySelector('.modification_user')
+
+        un.addEventListener('click',  () => {
+            description_user.classList.remove('none')
+            description_user.classList.add('flex')
+
+            logement_user.classList.remove('flex')
+            logement_user.classList.add('none')
+
+            modification_user.classList.remove('flex')
+            modification_user.classList.add('none')
+
+        })
+
+        trois.addEventListener('click',  () => {
+            modification_user.classList.remove('none')
+            modification_user.classList.add('flex')
+
+            logement_user.classList.remove('flex')
+            logement_user.classList.add('none')
+
+            description_user.classList.remove('flex')
+            description_user.classList.add('none')
+
+        })
+    </script>
+
+</body>
+</html>

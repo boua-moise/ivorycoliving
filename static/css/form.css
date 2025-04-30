@@ -1,0 +1,224 @@
+body{
+    height: 100vh;
+    background-image: url('/static/images/bg-form.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    height: 90px;
+}
+
+main{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form.login{
+    z-index: 2;
+    position: relative;
+    color: #002247;
+    height: 530px;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+form.register{
+    z-index: 2;
+    position: relative;
+    color: #002247;
+    height: 600px;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+form.login h2{
+    z-index: 2;
+    color: #317BF2;
+    margin-bottom: 30px;
+}
+
+form.register h2{
+    z-index: 2;
+    color: #317BF2;
+}
+
+form.login .space-entry{
+    height: 55%;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form.register .space-entry{
+    z-index: 2;
+}
+
+form.login label{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+form.register label{
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+
+form.login input{
+    height: 40px;
+    width: 220px;
+    padding: 0 15px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 2px;
+}
+
+form.register input{
+    height: 40px;
+    width: 220px;
+    padding: 0 15px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 5px;
+}
+
+form.login .password{
+    margin-top: 10px;
+}
+
+form.login button{
+    cursor: pointer;
+    width: 100%;
+    padding: 20px 30px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 10px;
+    background: linear-gradient(#0464FF,#317BF2);
+    color: #fff;
+    font-size: 1.3em;
+}
+
+form.register button{
+    cursor: pointer;
+    width: 100%;
+    padding: 17px 27px;
+    border-radius: 30px;
+    border: none;
+    background: linear-gradient(#0464FF,#317BF2);
+    color: #fff;
+    font-size: 1.3em;
+    margin: 5px 0;
+}
+
+button:hover{
+    background: linear-gradient(#526d97,#7a95c0);
+}
+
+form.login span.qr{
+    z-index: 2;
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+form.register span.qr{
+    z-index: 2;
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+form.login span.qr p{
+    font-family: sans-serif;
+    margin-right: 30px;
+}
+
+form.register span.qr p{
+    font-family: sans-serif;
+    margin-right: 30px;
+}
+
+
+form.login span.qr a{
+    cursor: pointer;
+    font-family: sans-serif;
+    color: #317BF2;
+}
+
+form.register span.qr a{
+    cursor: pointer;
+    font-family: sans-serif;
+    color: #317BF2;
+}
+
+.bg_form{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(240, 250, 255, 0.8);
+    border-radius: 30px;
+}
+
+.bg_register{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(240, 250, 255, 0.8);
+    border-radius: 30px;
+}
+
+.bg_main{
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(138, 153, 170, 0.7);
+}
+
+input:focus{
+    outline: 2px solid rgb(0, 119, 255);;
+}
+
+div.space-entry div.form{
+    width: 100%;
+    height: 85%;
+    /* height: %; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.space-entry div.forgot{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+div.forgot a{
+    color: #317BF2;
+}

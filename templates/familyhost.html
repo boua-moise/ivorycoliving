@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Familles - IvoryCoLiving</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='css/items.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='css/header_footer.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    {% include 'model/header.html' %}
+
+    <main>
+
+        <h1>Host Family</h1>
+
+        <section>
+
+            {% for famille in familles %}
+
+                <div class="card_item">
+
+                    <div class="img_item">
+                        <img src="{{ url_for('static', path=famille.main_image) }}" alt="">
+                        <span>{{famille.dispo}}</span>
+                        <a href="/detail?file=1&index={{familles.index(famille)}}">
+                            <div class="cta">
+                                <div id="btn">VOIR PLUS</div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="info_item">
+                        <span class="dispo">dispo</span>
+                        <h2>{{famille.nom}}</h2>
+                        <p><strong>Localisation:</strong> {{famille.localisation}}</p>
+                        <p><strong>Capacité:</strong> {{famille.capacite}} étudiants</p>
+
+                    </div>
+
+                    <span class="prix_item">
+                        <strong>Prix:</strong> <span>{{famille.budget}} FCFA/mois</span>
+                    </span>
+
+                </div>
+
+            {% endfor %}
+
+        </section>
+
+    </main>
+
+    {% include 'model/footer.html' %}
+
+</body>
+</html>

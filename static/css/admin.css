@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+
+form{ width: 60%; }
+
+label { display: block; margin: 10px 0 5px; }
+
+input, select, textarea, .content_image, .single { 
+    width: 100%; margin-bottom: 15px; padding: 8px; 
+}
+
+button {
+    background: linear-gradient(#0464FF,#317BF2);
+    color: white; 
+    padding: 10px; 
+    border: none; 
+    cursor: pointer; 
+}
+
+button:hover {
+    background: linear-gradient(#0464FF,#317BF2); 
+}
+
+input[type=file]{
+    padding: 10px; 
+    background-color: blue;
+}
+
+.content_image{
+    display: flex; justify-content: space-between;
+}
+
+.image{
+    width: 23%;
+}
+
+.custom-file-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(#0464FF,#317BF2);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.custom-file-button:hover {
+    background-color: #45a049;
+}

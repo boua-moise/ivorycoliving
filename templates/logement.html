@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Logements - IvoryCoLiving</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='css/items.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='css/header_footer.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    {% include 'model/header.html' %}
+
+    <main>
+
+        <h1>Logements</h1>
+        
+        <section>
+
+            {% for logement in logements %}
+
+                <div class="card_item">
+
+                    <div class="img_item">
+
+                        <img src="{{ url_for('static', path=logement.main_image) }}" alt="">
+
+                        <span>{{logement.dispo}}</span>
+
+                        <a href="/detail?file=0&index={{logements.index(logement)}}">
+
+                            <div class="cta">
+
+                                <div id="btn">VOIR PLUS</div>
+
+                            </div>
+
+                        </a>
+
+                    </div>
+
+
+                    <div class="info_item">
+                        <h2>{{logement.nom}}</h2>
+                        <p><strong>Localisation:</strong> {{logement.localisation}}</p>
+                        <p><strong>Capacité:</strong> {{logement.capacite}} colocataires</p>
+                    </div>
+
+                    <span class="prix_item">
+                        <strong>Loyer:</strong> <span>{{logement.budget}} FCFA/mois</span>
+                    </span>
+
+                </div>
+
+            {% endfor %}
+
+        </section>
+
+    </main>
+
+    {% include 'model/footer.html' %}
+
+</body>
+</html>

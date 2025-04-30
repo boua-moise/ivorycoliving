@@ -1,0 +1,107 @@
+<header>
+    <nav>
+        <span class="logo"><a href="/">IvoryCoLiving</a></span>
+        <div class="menu-header">
+            <a href="/">Acceuil</a>
+            <a href="/familyhost">Host Family</a>
+            <a href="/colocataires">Colocataire</a>
+            <a href="/logements">Logements</a>
+            <a href="/contact">Contact</a>
+            {% if user %}
+              {% if user.role %}
+                <a href="/admin">Admin</a>
+              {% endif %}
+            {% endif %}
+        </div>
+
+        {% if user %}
+
+        <div class="menu">
+            <div class="menu-titre" onclick="toggleMenu()"> <strong>{{user.perso}}</strong> </div>
+            <div class="menu-options" id="menuOptions">
+              <div><a href="/dashboard">Tableau de bord</a></div>
+              <div><a href="/dashboard">Tableau de bord</a></div>
+              <div><a href="/logout">Déconnexion</a></div>
+            </div>
+        </div>
+
+        {% else %}
+
+            <div>
+                <a href="/login" class="btn login">Connexion</a>
+                <a href="/register" class="btn register">Inscription</a>
+            </div>
+
+        {% endif %}
+    </nav>
+
+    <script>
+
+        function toggleMenu() {
+            const menu = document.getElementById('menuOptions');
+            menu.classList.toggle('open'); // Ajoute/enlève la classe "open"
+        }
+
+    </script>
+
+</header>
+
+
+<!-- <!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Menu Déroulant dans une Nav Bar</title>
+  <style>
+    /* Style de la barre de navigation */
+    .navbar {
+      display: flex;
+      background-color: #333;
+      padding: 10px;
+      color: white;
+      align-items: center;
+    }
+
+    .menu {
+      margin-left: 20px; /* Espacement entre les éléments */
+      position: relative; /* Permet de contrôler les sous-menus */
+    }
+
+    .menu-titre {
+      cursor: pointer; /* Indique qu'il est interactif */
+      padding: 10px;
+      background-color: #444;
+      border-radius: 5px;
+    }
+
+    .menu-options {
+      display: flex;
+      flex-direction: column; /* Les options sont verticales */
+      background-color: #555;
+      overflow: hidden; /* Masque les options */
+      max-height: 0; /* Fermé par défaut */
+      transition: max-height 0.3s ease; /* Animation */
+      border-radius: 5px;
+      position: absolute; /* Permet de flotter sous le parent */
+      top: calc(100% + 5px); /* Positionnement sous le menu-titre */
+      left: 0; /* Aligné au parent */
+      width: 150px; /* Largeur définie */
+    }
+
+    .menu-options div {
+      padding: 10px;
+      border-bottom: 1px solid #666;
+    }
+
+    .menu-options.open {
+      max-height: 200px; /* Ouvre le menu avec une hauteur dynamique */
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div>Accueil</div>
+    
+  </nav>
+</body>
+</html> -->

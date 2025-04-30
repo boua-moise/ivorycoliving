@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Colocataires - IvoryCoLiving</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='css/items.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='css/header_footer.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    {% include 'model/header.html' %}
+
+    <main>
+
+        <h1>Colocataires</h1>
+        
+        <section>
+
+            {% for colocataire in colocataires %}
+                    
+                <div class="card_item">
+
+                    <div class="img_item">
+
+                        <img src="{{ url_for('static', path=colocataire.photo) }}" alt="user-image">
+
+                        <span>{{colocataire.dispo}}</span>
+
+                        <a href="/detail?file=2&index={{colocataires.index(colocataire)}}">
+
+                            <div class="cta">
+
+                                <div id="btn">VOIR PLUS</div>
+
+                            </div>
+
+                        </a>
+                    </div>
+
+
+                    <div class="info_item">
+                        <span class="dispo">dispo</span>
+                        <h2>{{colocataire.nom}}, {{colocataire.age}} ans</h2>
+                        <p><strong>Profession:</strong> {{colocataire.profession}}</p>
+                        <p><strong>Contact:</strong> {{colocataire.contacts.telephone}}, {{colocataire.contacts.email}}</p>
+                    </div>
+
+                    <span class="prix_item">
+                        <strong>Budget Max:</strong> <span>{{colocataire.budget}} FCFA</span>
+                    </span>
+
+                </div>
+
+            {% endfor %}
+
+        </section>
+
+    </main>
+
+    {% include 'model/footer.html' %}
+
+</body>
+</html>

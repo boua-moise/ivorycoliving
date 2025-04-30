@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajout des données</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='css/header_footer.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='css/admin.css') }}">
+</head>
+<body>
+
+    {% include 'model/header.html' %}
+
+    <main>
+        <h1>Ajouter des données</h1>
+
+        <form action="/admin" method="post" enctype="multipart/form-data">
+            <!-- Groupe -->
+            <label for="group">Groupe :</label>
+            <select id="group" name="group" required>
+                <option value="familles">Familles d'accueil</option>
+                <option value="logements">Logements</option>
+            </select>
+
+            <!-- Nom -->
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <!-- Localisation -->
+            <label for="localisation">Localisation :</label>
+            <input type="text" id="localisation" name="localisation" required>
+
+            <!-- Budget -->
+            <label for="budget">Budget :</label>
+            <input type="text" id="budget" name="budget" placeholder="Exemple: 50 000" required>
+
+            <!-- Capacité -->
+            <label for="capacite">Capacité :</label>
+            <input type="number" id="capacite" name="capacite" placeholder="Exemple: 3" required>
+
+            <!-- Contact -->
+            <label for="contacts">Contact :</label>
+            <input type="text" id="contacts" name="contacts" placeholder="Exemple: +225 01 2345 6789 / email@example.com" required>
+
+            <!-- Description -->
+            <label for="description">Description :</label>
+            <textarea id="description" name="description" rows="5" placeholder="Exemple: Description du logement ou de la famille" required></textarea>
+
+            <!-- Image principale -->
+            <label for="customFile" class="custom-file-button">Image principale :</label>
+            <input type="file" id="customFile" name="customFile" accept="image/*" required>
+
+            <!-- Images supplémentaires -->
+            <div class="content_image">
+                <div class="image">
+                    <label for="image1" class="custom-file-button">Image supplémentaire 1 :</label>
+                    <input type="file" id="image1" name="images" accept="image/*">
+                </div>
+                <div class="image">
+                    <label for="image2" class="custom-file-button">Image supplémentaire 2 :</label>
+                    <input type="file" id="image2" name="images" accept="image/*">
+                </div>
+                <div class="image">
+                    <label for="image3" class="custom-file-button">Image supplémentaire 3 :</label>
+                    <input type="file" id="image3" name="images" accept="image/*">
+                </div>
+                <div class="image">
+                    <label for="image4" class="custom-file-button">Image supplémentaire 4 :</label>
+                    <input type="file" id="image4" name="images" accept="image/*">
+                </div>
+            </div>
+
+            <!-- Données supplémentaires -->
+            <label for="extra">Données supplémentaires (optionnelles) :</label>
+            <textarea id="extra" name="extra" rows="4" placeholder="Format JSON, ex : { 'prix': 80000, 'equipements': ['Wi-Fi', 'Climatisation'] }"></textarea>
+
+            <!-- Bouton de soumission -->
+            <button type="submit">Ajouter</button>
+        </form>
+    </main>
+
+    {% include 'model/footer.html' %}
+
+</body>
+</html>

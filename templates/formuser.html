@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire Utilisateur</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='css/header_footer.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='css/formuser.css') }}">
+</head>
+<body>
+
+    <main>
+        <div class="form-container">
+            <h1>Formulaire Utilisateur</h1>
+            <form action="/userform" method="post" enctype="multipart/form-data">
+                <label for="photo_profil" class="custom-file-button single">Entrée votre photo de profil :</label>
+                <input type="file" id="photo_profil" name="photo_profil" accept="image/*" style="display: none;" required>
+
+                <label for="age">Votre age :</label>
+                <input type="text" id="age" name="age" placeholder="25" required>
+
+                <label for="fonction">Votre fonction :</label>
+                <input type="text" id="fonction" name="fonction" placeholder="Exemple : Étudiant, Professionnel" required>
+    
+                <label for="numero">Votre numéro :</label>
+                <input type="tel" id="numero" name="numero" placeholder="Exemple : +225 01 2345 6789" required>
+    
+                <label for="description">Votre description :</label>
+                <textarea id="description" name="description" rows="4" placeholder="Décrivez-vous brièvement" required></textarea>
+    
+                <label for="budget">Votre budget :</label>
+                <input type="number" id="budget" name="budget" placeholder="Exemple : 75000" required>
+    
+                <button type="submit">Soumettre</button>
+            </form>
+        </div>
+    </main>
+
+    {% include 'model/footer.html' %}
+
+    {% if message %}
+    <script>
+        alert("{{message}}")
+    </script>
+    {% endif %}
+
+</body>
+</html>

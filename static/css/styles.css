@@ -1,0 +1,219 @@
+main{
+    font-family: sans-serif;
+}
+
+section{
+    height: 700px;
+    width: 100%;
+}
+
+section.section_header{
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+}
+
+section.colocataire{
+    background-color: rgba(0, 4, 252, 0.1);
+}
+
+section.interet_utilisation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 450px;
+    background-color: #F3F4F3;
+    margin-top: 80px;
+}
+
+section.avis{
+    height: 450px;
+}
+
+.section_header img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.header{
+    color: #fff;
+    text-align: justify;
+    margin-left: 80px;
+    width: 30%;
+}
+
+.header h1{
+    color: #1adcfe;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+h2{
+    margin: 0 15px;
+}
+
+.titre{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 0;
+}
+
+.titre p{
+    color: #616161;
+}
+
+label{
+    height: 1px;
+    width: 100px;
+    background: #D9D9D9;
+    display: inline;
+}
+
+.titre span{
+    display: flex;
+    align-items: center;
+}
+
+.image_int{
+    height: 100%;
+}
+
+.image_int img{
+    height: 100%;
+    object-fit: cover;
+}
+
+div.contenue{
+    width: 55%;
+    padding-left: 30px;
+}
+
+div.contenue h1{
+    font-size: 2.5em;
+    font-weight: normal;
+}
+
+div.contenue p.para1{
+    margin: 15px 0;
+}
+
+div.container_avis{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.perso_avis{
+    height: 120px;
+    width: 30%;
+    background-color: #FAFAFA;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div.text_image{
+    display: flex;
+    justify-content: end;
+}
+
+div.items{
+    font-family: "Montserrat", sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 50px;
+}
+
+.card_item{
+    height: 450px;
+    width: 365px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1.5px solid #d9d9d9;
+    background: #fff;
+}
+
+.img_item{
+    position: relative;
+    height: 200px;
+}
+
+.img_item img{
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.img_item span{
+    position: absolute;
+    margin: 5px;
+    padding: 5px 45px;
+    color: #fff;
+    background-color: blue;
+    top: 0;
+    left: 0;
+}
+
+.cta{
+    display: none;
+}
+
+.img_item:hover .cta{
+    display: block;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#btn{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info_item{
+    height: 150px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.info_item span{
+    text-align: center;
+    width: 50px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: blue;
+}
+
+.prix_item{
+    font-size: 1.5em;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1.5px solid #d9d9d9;
+}
+
+.prix_item strong{
+    margin-left: 10px;
+}
+
+.prix_item span{
+    margin-right: 10px;
+}

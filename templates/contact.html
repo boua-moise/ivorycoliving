@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact - IvoryCoLiving</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='css/header_footer.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='css/contact.css') }}">
+</head>
+<body>
+
+    {% include 'model/header.html' %}
+
+    <main>
+
+        <h1>Laisser nous un message</h1>
+
+        <form action="/contact" method="post" class="contact">
+
+            <div class="input">
+                <div>
+                    <label for="nom">
+                        nom <br>
+                        <input type="text" name="nom" id="nom" placeholder="exemple@gmail.nom" required>
+                    </label>
+                </div>
+    
+                <div>
+                    <label for="mail">
+                        mail <br>
+                        <input type="mail" name="mail" id="mail" required>
+                    </label>
+                </div>
+            </div>
+
+
+            <div class="message">
+                <label for="message">
+                    message <br>
+                    <textarea type="message" name="message" id="message" rows="10" cols="50" required>
+    
+                    </textarea>
+    
+                </label>
+            </div>
+
+
+            <div class="submit">
+                <button type="submit">Envoyer</button>
+            </div>
+
+        </form>
+
+        <div class="bg_main"></div>
+        
+    </main>
+
+    {% include 'model/footer.html' %}
+
+</body>
+</html>

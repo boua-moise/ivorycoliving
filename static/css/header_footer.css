@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex: 1;
+}
+
+header{
+    padding: 20px 50px;
+    background-color: rgba(31, 32, 57, 0.6);
+}
+
+footer{
+    padding: 20px 50px;
+    background-color: rgba(31, 32, 57, 0.6);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30px;
+}
+
+nav a:active{
+    color: #36078d;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+span.logo a{
+    font-family: 'Inria Serif', serif;
+    color: #1adcfe;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.menu-header a{
+    margin-left: 15px;
+    font-size: 1.3em;
+    font-family: "Inter", sans-serif;
+}
+
+.menu {
+    margin-left: 20px; /* Espacement entre les éléments */
+    position: relative; /* Permet de contrôler les sous-menus */
+  }
+
+  .menu-titre {
+    font-size: 1.2em;
+    cursor: pointer; /* Indique qu'il est interactif */
+    padding: 23px 21px;
+    background: linear-gradient(#0464FF,#317BF2);
+    border-radius: 50px;
+    color: #fff;
+  }
+
+  .menu-options {
+    display: flex;
+    flex-direction: column; /* Les options sont verticales */
+    background-color: #fff;
+    overflow: hidden; /* Masque les options */
+    max-height: 0; /* Fermé par défaut */
+    transition: max-height 0.3s ease; /* Animation */
+    border-radius: 5px;
+    position: absolute; /* Permet de flotter sous le parent */
+    top: calc(100% + 5px); /* Positionnement sous le menu-titre */
+    left: 0; /* Aligné au parent */
+    width: 150px; /* Largeur définie */
+  }
+
+  .menu-options div {
+    padding: 10px;
+    border-bottom: 1px solid #666;
+    color: #0464FF;
+  }
+
+  .menu-options a {
+    color: #0464FF;
+  }
+
+  .menu-options.open {
+    max-height: 200px; /* Ouvre le menu avec une hauteur dynamique */
+  }
+
+
+a.btn{
+    font-size: 1.2em;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    padding: 15px 15px;
+    border-radius: 30px;
+}
+
+a.login{
+    background: linear-gradient(#0464FF, #317BF2);
+}
+
+a.register{
+    margin-left: 15px;
+    background-color: #fff;
+    color: blue;
+}

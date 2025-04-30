@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Connexion - IvoryCoLiving</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='css/header_footer.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='css/form.css') }}">
+    <link rel="stylesheet" href="/static/css/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    {% include 'model/header.html' %}
+
+    <main>
+
+        <form action="/login" method="post" class="login">
+
+            <h2>Connexion</h2>
+
+            <div class="space-entry">
+
+                <div class="form">
+                    <label for="username_mail">
+                        Mail ou Nom Utilisateur <br>
+                        <input type="text" name="username_mail" id="username_mail" placeholder="exemple@gmail.com" required>
+                    </label>
+        
+                    <br>
+        
+                    <label for="password" class="password">
+                        Password <br>
+                        <input type="password" name="password" id="password" required>
+                    </label>
+        
+                    <br>
+        
+                    <button type="submit">Connexion</button>
+                </div>
+
+                <div class="forgot">
+                    <span><a href="/forgot_password">Mot de passe oublié?</a></span>
+                </div>
+
+            </div>
+
+            <span class="qr"><p>Vous n’avez pas de compte?</p> <a href="/register">S’inscrire</a></span>
+
+            <div class="bg_form"></div>
+
+        </form>
+
+        <div class="bg_main"></div>
+
+    </main>
+
+
+
+    {% if message %}
+
+        <script>
+            
+            alert("{{message}}")
+
+        </script>
+
+    {% endif %}
+
+</body>
+</html>

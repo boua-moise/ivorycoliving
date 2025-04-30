@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mot de Passe Oublié</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='css/header_footer.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='css/forgot.css') }}">
+</head>
+<body>
+    <main>
+        <div class="main">
+            <div class="form-container">
+                <h1>Mot de Passe Oublié</h1>
+                <form action="/forgot_password" method="post">
+                    <label for="email">Veuillez entrer votre e-mail :</label>
+                    <input type="text" id="email" name="username_mail" placeholder="exemple@gmail.com ou yao" required>
+                    <button type="submit">Envoyer</button>
+                </form>
+                <p>Un lien de récupération sera envoyé à votre e-mail si l'adresse est valide.</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

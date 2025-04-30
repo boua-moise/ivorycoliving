@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "nom": "rtg",
+        "localisation": "rtg",
+        "budget": "2222",
+        "capacite": "2",
+        "contacts": "geekmaster225@proton.me",
+        "description": "La famille Koné offre un cadre familial structuré et accueillant pour les étudiants. La maison, située en plein cœur du Plateau, est idéale pour les jeunes cherchant un accès rapide aux universités et aux bibliothèques. Les étudiants y trouvent une chambre bien aménagée avec un espace de travail adapté. En dehors des études, ils profitent d’un cadre sécurisé et d’un accompagnement bienveillant. Les repas sont préparés avec attention, et un espace de discussion permet aux colocataires et aux membres de la famille d’échanger sur divers sujets. Une solution idéale pour les étudiants en quête de stabilité et d’interactions enrichissantes.\r\n\r\nLorem, ipsum",
+        "main_image": "anthony-mckissic-t-Kzi9Wqdko-unsplash.jpg",
+        "additional_images": [
+            "gallery23 1.png",
+            "lashawn-dobbs--vmYS9bent4-unsplash.jpg",
+            "NAN(1).png",
+            "lashawn-dobbs--vmYS9bent4-unsplash.jpg"
+        ]
+    }
+]

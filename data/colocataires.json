@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "dispo": 1,
+        "nom": "Jean Kouassi",
+        "age": 24,
+        "fonction": "Étudiant en informatique",
+        "budget": 80000,
+        "preferences": {
+            "type_colocation": "Mixte",
+            "horaires": "Matinal",
+            "animaux": "Non"
+        },
+        "photo": "images/robbie-lens.png",
+        "description": "Jean est un étudiant en informatique passionné par le développement web et les nouvelles technologies. Organisé et méthodique, il privilégie un environnement calme pour se concentrer sur ses projets. Il apprécie les échanges avec ses colocataires et aime organiser des soirées de discussion autour de la programmation ou des jeux vidéo. Il est matinal et préfère une colocation équilibrée entre moments de convivialité et respect de l’intimité. Soucieux de maintenir un espace propre et bien rangé, il participe activement aux tâches communes.",
+        "contacts": {
+            "telephone": "+225 05 6789 1234",
+            "email": "jean.kouassi@example.com"
+        }
+    },
+    {
+        "id": 2,
+        "dispo": 1,
+        "nom": "Fatou Diarra",
+        "age": 22,
+        "fonction": "Étudiante en gestion",
+        "budget": 70000,
+        "preferences": {
+            "type_colocation": "Féminine",
+            "horaires": "Nocturne",
+            "animaux": "Oui"
+        },
+        "photo": "images/robbie-lens.png",
+        "description": "Fatou est une personne dynamique et créative qui aime les environnements vivants et stimulants. Elle est passionnée par la gestion de projets et les initiatives entrepreneuriales. Ses journées sont bien remplies, et elle préfère travailler tard dans la nuit pour ses révisions. Ouverte d'esprit et sociable, elle recherche des colocataires qui aiment discuter, échanger des idées et partager des moments conviviaux. Elle est également amoureuse des animaux et espère vivre dans une colocation où la présence d’animaux est acceptée.",
+        "contacts": {
+            "telephone": "+225 07 4321 8765",
+            "email": "fatou.diarra@example.com"
+        }
+    },
+    {
+        "id": 3,
+        "dispo": 1,
+        "nom": "Moussa Coulibaly",
+        "age": 26,
+        "fonction": "Jeune fonctionnel en marketing",
+        "budget": 90000,
+        "preferences": {
+            "type_colocation": "Mixte",
+            "horaires": "Flexible",
+            "animaux": "Non"
+        },
+        "photo": "images/robbie-lens.png",
+        "description": "Moussa travaille dans le domaine du marketing digital et est constamment à la recherche de nouvelles idées créatives. Il apprécie un cadre de vie agréable où il peut à la fois se concentrer et interagir avec ses colocataires. Son emploi du temps est assez flexible, ce qui lui permet de s’adapter aux différents rythmes de vie des autres résidents. Amateur de sport et de cuisine, il propose souvent des soirées cuisine ou des sessions d'entraînement entre colocataires pour maintenir une ambiance dynamique et conviviale.",
+        "contacts": {
+            "telephone": "+225 09 8765 4321",
+            "email": "moussa.coulibaly@example.com"
+        }
+    },
+    {
+        "id": 4,
+        "dispo": 1,
+        "nom": "Awa Koné",
+        "age": 21,
+        "fonction": "Étudiante en droit",
+        "budget": 75000,
+        "preferences": {
+            "type_colocation": "Féminine",
+            "horaires": "Matinal",
+            "animaux": "Non"
+        },
+        "photo": "images/robbie-lens.png",
+        "description": "Awa est une étudiante sérieuse et ambitieuse, déterminée à réussir dans ses études de droit. Elle apprécie un environnement calme et organisé où elle peut se concentrer sur ses révisions. Très disciplinée, elle suit une routine matinale et recherche une colocation où règne une bonne gestion du temps et un respect mutuel. Elle aime les discussions intellectuelles et partage volontiers des débats sur des sujets variés avec ses colocataires. Son objectif est de combiner travail et vie sociale sans perturber son équilibre personnel.",
+        "contacts": {
+            "telephone": "+225 08 6543 2109",
+            "email": "awa.kone@example.com"
+        }
+    },
+    {
+        "perso": "YM",
+        "nom": "Yao",
+        "age": 21,
+        "prenom": "Master",
+        "username": "mk",
+        "valide": 1,
+        "fonction": "Admin Réseau",
+        "description": "Explications du code\r\n\r\n    Validation de la connexion :\r\n\r\n        L'ID de l'utilisateur est récupéré depuis les cookies pour identifier l'utilisateur connecté.\r\n\r\n        Si aucun ID n'est trouvé, une erreur 401 Unauthorized est levée.\r\n\r\n    Chargement et vérification des données :\r\n\r\n        Les données utilisateur sont chargées depuis un fichier JSON.\r\n\r\n        Une vérification est effectuée pour s'assurer que l'utilisateur existe dans les données.\r\n\r\n    Mise à jour des données :\r\n\r\n        Les informations saisies dans le formulaire (mail, username, num, fonction, password) sont mises à jour dans la structure utilisateur.\r\n\r\n    Enregistrement de la photo de profil :\r\n\r\n        La photo de profil est enregistrée dans static/users avec un nom unique basé sur le username.\r\n\r\n        Seuls les fichiers .jpg, .jpeg, et .png sont acceptés.\r\n\r\n    Sauvegarde des données :\r\n\r\n        Les données mises à jour sont écrites dans le fichier JSON à l'aide de la fonction save_user_data.\r\n\r\n    Redirection après mise à jour :\r\n\r\n        L'utilisateur est redirigé vers /profile ou une autre page après la mise à jour réussie.\r\n\r\nStructure des fichiers après mise à jour\r\n\r\n    Les données utilisateur mises à jour dans data/user.json pourraient ressembler à :",
+        "budget": 75000,
+        "photo": "users/mk.jpg",
+        "contacts": {
+            "telephone": "+225 0565784503",
+            "email": "mk@gmail.com"
+        }
+    },
+    {
+        "perso": "MT",
+        "nom": "Mamo",
+        "prenom": "Tana",
+        "username": "tana",
+        "valide": 1,
+        "fonction": "Admin Reseaux",
+        "age": "25",
+        "description": "reponse.delete_cookie(\"id_user\")",
+        "budget": 45000,
+        "photo": "users/tana.jpg",
+        "contacts": {
+            "telephone": "+225 07 58 66 27 35",
+            "email": "tana@gmail.com"
+        }
+    },
+    {
+        "perso": "YY",
+        "nom": "Yves",
+        "prenom": "Yao",
+        "username": "yves",
+        "valide": 1,
+        "fonction": "Admin Reseaux",
+        "age": "25",
+        "description": "http://127.0.0.1:8000",
+        "budget": 45000,
+        "photo": "users/yves.jpg",
+        "contacts": {
+            "telephone": "+225 07 58 66 27 35",
+            "email": "yves@gmail.com"
+        }
+    },
+    {
+        "perso": "MT",
+        "nom": "Mamo",
+        "prenom": "Tana",
+        "username": "tana",
+        "valide": 1,
+        "fonction": "Admin Reseaux",
+        "age": "25",
+        "description": "http://127.0.0.1:8000",
+        "budget": 45000,
+        "photo": "users/tana.jpg",
+        "contacts": {
+            "telephone": "+225 07 58 66 27 35",
+            "email": "tana@gmail.com"
+        }
+    }
+]
